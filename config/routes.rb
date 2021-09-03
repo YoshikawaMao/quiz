@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   # get 'questions/index'
-  root to: 'questions#index'
+  root to: 'questions#top'
+  get 'top' => 'questions#top'
   get 'questions' => 'questions#index'
   get 'questions/correct' => 'questions#correct'
   get 'questions/wrong' => 'questions#wrong'
