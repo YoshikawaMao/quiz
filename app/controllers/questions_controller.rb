@@ -10,4 +10,7 @@ class QuestionsController < ApplicationController
 
   def wrong
   end
+
+  def about
+  end
 end
